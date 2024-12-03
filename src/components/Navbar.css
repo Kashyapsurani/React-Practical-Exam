@@ -1,0 +1,62 @@
+.custom-navbar {
+    background-color: #000;
+    /* Dark background color */
+    padding-top: 10px;
+    /* Reduce the top padding to bring the navbar elements closer */
+}
+
+
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 15px;
+    /* Adjust the gap between each nav item */
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    color: #f0f0f0;
+}
+
+.nav-link:hover {
+    color: #ffb600;
+    /* Hover effect */
+}
+
+.start-button {
+    font-size: 1rem;
+    padding: 10px 15px;
+    background-color: #ffb600;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.start-button:hover {
+    background-color: #ff8c00;
+    /* Hover effect for the button */
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .start-button {
+        display: none;
+        /* Hide the button on mobile */
+    }
+
+    .navbar-collapse {
+        margin-top: 10px;
+        /* Reduce space between navbar and logo on smaller screens */
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        /* Stack the nav items vertically on mobile */
+        gap: 10px;
+    }
+}
