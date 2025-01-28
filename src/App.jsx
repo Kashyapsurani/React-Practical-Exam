@@ -1,4 +1,3 @@
-import React from "react";
 import { Routes, Route } from "react-router-dom";
 import PostList from "./components/PostList";
 import PostForm from "./components/PostForm";
@@ -13,7 +12,6 @@ const App = () => {
         <Route path="/" element={<PostList />} />
         <Route path="/add" element={<PostForm />} />
         <Route path="/update/:id" element={<PostForm />} />
-
       </Routes>
     </div>
   );
