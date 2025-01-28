@@ -53,7 +53,7 @@ const PostList = () => {
                             <div className="post-card-content card-body">
                                 <h5 className="post-card-title card-title">{post.title}</h5>
                                 <p className="post-card-description card-text">{post.description}</p>
-                                <div className="d-flex justify-content-between mb-3">
+                                <div className="d-flex justify-content-between mb-5">
                                     {/* Only show delete and update buttons for fetched/added posts */}
                                     {!post.id.startsWith("default") && (
                                         <>

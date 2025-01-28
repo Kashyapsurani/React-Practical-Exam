@@ -1,3 +1,10 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "title": "ayuma",
+      "description": "this is my first mobile app projeact s",
+      "image": "blob:http://localhost:5173/b1feb1b6-5bde-4220-959a-686803fc63df",
+      "id": "9cdc"
+    }
+  ]
 }
